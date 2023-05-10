@@ -1,0 +1,50 @@
+Hour 1:
+	- (10 mins) Reviewed the assignment requirements carefully
+	- (10 mins) Identified the key features that need to be implemented
+	- (10 mins) Plan the project structure and components
+	- (10 mins) Set up GitHub API token
+	- (20 mins) Set up a development environment with required initial dependencies
+
+Hour 2&3:
+	- (20 mins) Implemented stack navigation in App.js file
+	- (20 mins) Created Screens folder and HomeScreen.js, as initial route in the stack
+	- (20 mins) Created search bar and button
+	- (30 mins) Created Welcome message and layout of HomeScreen
+	- (30 mins) Created ProfileScreen, onpush of search button, pass the search tem to the profile screen
+
+Hour 4:
+	- (20 mins) Getting user data from GitHub REST API
+	- (20 mins) Made Profile.js component, takes user data and returns the profile layout
+	- (20 mins) Made ProfileNotFound component, shows if no user exists
+	
+Hour 5:
+	- (10 mins) Created FollowersScreen.js, takes a user returns followers
+	- (20 mins) Created buttons on ProfileScreen to push to follow screen
+	- (20 mins) Created FollowerItem.js component, takes a follower information and returns the view
+	- (10 mins) Have FollowerItem push another ProfileScreen onpush
+
+Hour 6:
+	-  (30 mins) Designed Skeleton Screens for FollowerItem and ProfileScreen
+	-  (20 mins) Conditionally render skeleton screens
+	-  (20 mins) Added delay to FollowerItem skeleton screen to make more obvious
+
+Hour 7: 
+	- (20 mins) Implemented Pull for Refresh on FollowersScreen, updating the list on pull
+	- (20 mins) Implemented Pull for Refresh on ProfileScreen, updating the profile on pull
+
+Hour 8&9: 
+	- (20 mins) Planned profile caching and invalidation
+	- (20 mins) Refactored getting user data and followers to services cacheService.js and followService.js in services folder
+	- (20 mins) Set up asyncstorage to store user data and etag
+	- (20 mins) Check if user is stored in storage, check if user's etag has been updated, if the etag is the same, show cached details
+	- (10 mins) If etag is not the same or hasnt been stored, get new user data
+	- (10 mins) Created cached notification shows if the app is using cached data
+	- (20 mins) Created button to clear cache
+
+Hour 10: 
+	- Testing
+	- Clean up code
+	- Prepare android build
+	
+ 
+	
